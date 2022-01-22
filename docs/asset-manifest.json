@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/LeprEcommerce/static/js/main.82f73fae.js",
-    "index.html": "/LeprEcommerce/index.html",
-    "main.82f73fae.js.map": "/LeprEcommerce/static/js/main.82f73fae.js.map"
+    "main.js": "/leprecommerce/static/js/main.378c774f.js",
+    "index.html": "/leprecommerce/index.html",
+    "main.378c774f.js.map": "/leprecommerce/static/js/main.378c774f.js.map"
   },
   "entrypoints": [
-    "static/js/main.82f73fae.js"
+    "static/js/main.378c774f.js"
   ]
 }
