@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.77be453e.js",
+    "main.js": "/LeprEcommerce/static/js/main.9b6e3a04.js",
     "static/media/bota.jpg": "/LeprEcommerce/static/media/bota.abffbff71fcaaa26ab3f.jpg",
     "static/media/luva.jpg": "/LeprEcommerce/static/media/luva.a33e6e4af849c660b29a.jpg",
     "static/media/capa.jpg": "/LeprEcommerce/static/media/capa.ee300b429c90db98eea7.jpg",
@@ -9,10 +9,10 @@
     "static/media/macacao.jpg": "/LeprEcommerce/static/media/macacao.50f0ce90a009c45e2f9e.jpg",
     "static/media/capacete.jpg": "/LeprEcommerce/static/media/capacete.71a80cc53d479490b947.jpg",
     "static/media/bala.jpg": "/LeprEcommerce/static/media/bala.9ae588c720feb061b779.jpg",
-    "index.html": "/index.html",
-    "main.77be453e.js.map": "/static/js/main.77be453e.js.map"
+    "index.html": "/LeprEcommerce/index.html",
+    "main.9b6e3a04.js.map": "/LeprEcommerce/static/js/main.9b6e3a04.js.map"
   },
   "entrypoints": [
-    "static/js/main.77be453e.js"
+    "static/js/main.9b6e3a04.js"
   ]
 }
