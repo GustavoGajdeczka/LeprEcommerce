@@ -2,10 +2,11 @@ import React from 'react';
 import { AppBar, Toolbar, IconButton, Badge, Menu, MenuItem, Typography } from '@material-ui/core';
 import { ShoppingCart } from '@material-ui/icons';
 import useStyles from './navbarStyles';
+import { Link } from 'react-router-dom';
 
 import logo from '../../assets/leprechaun-png-128.png'
 
-const Navbar = () => {
+const Navbar = ({totalItems}) => {
   const classes = useStyles();
   return (
     <>
@@ -21,11 +22,13 @@ const Navbar = () => {
         </Typography>
         <div className={classes.grow}/>
         <div className="classes.button">
-          <IconButton aria-label="Items no Carrinho" color="inherit">
-            <Badge badgeContent={2} color="secondary">
-              <ShoppingCart/>
-            </Badge>
-          </IconButton>
+          <Link to="/cart">
+            <IconButton aria-label="Items no Carrinho" color="inherit">
+              <Badge badgeContent={totalItems} color="secondary">
+                <ShoppingCart/>
+              </Badge>
+            </IconButton>
+          </Link>
         </div>
       </Toolbar>
     </AppBar>
