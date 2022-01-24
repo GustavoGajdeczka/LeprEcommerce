@@ -40,6 +40,8 @@ const Cart = ({cart, onUpdateCart, onRemoveFromCart, onEmptyCart}) => {
                 onClick={() => onEmptyCart()}
                 color="secondary"> Esvaziar Carrinho</Button>
               <Button 
+                component={Link}
+                to='/checkout'
                 className={classes.checkoutButton} 
                 size="large" 
                 type="button" 
